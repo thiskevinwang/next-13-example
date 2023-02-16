@@ -4,8 +4,8 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     appDir: true,
-    runtime: "experimental-edge",
-    urlImports: ["https://cdn.jsdelivr.net", "https://cdn.skypack.dev"],
+    // runtime: "experimental-edge",
+    // urlImports: ["https://cdn.jsdelivr.net", "https://cdn.skypack.dev"],
   },
 };
 

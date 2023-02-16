@@ -1,11 +1,7 @@
 import Link from "next/link";
+import { nanoid } from "nanoid";
 
 export default async function Page() {
-  const { nanoid } = await import(
-    // @ts-ignore
-    "https://cdn.jsdelivr.net/npm/nanoid/nanoid.js"
-  );
-
   const ids = Array.from({ length: 20 }, () => nanoid(20));
 
   return (

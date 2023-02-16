@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-const filename = import.meta.url;
-
 export default function RootLayout({
   children,
 }: {
@@ -12,12 +10,6 @@ export default function RootLayout({
       <nav>
         app/layout.tsx
         <div>
-          <ul>
-            Pokemon
-            <li>
-              <Link href="/pokemon">pokemon</Link>
-            </li>
-          </ul>
           <ul>
             Shop
             <li>
